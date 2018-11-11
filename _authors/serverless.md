@@ -1,5 +1,5 @@
 ---
-short_namme: serverless
+short_name: serverless
 name: serverless application model
 position: cloud
 ---
