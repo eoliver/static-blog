@@ -44,3 +44,5 @@ https://www.josephecombs.com/2018/03/05/how-to-make-an-AWS-S3-static-website-wit
         * Corresponding pipelines triggered on commits to these branches
         * dev.blog.sitename
         * stage.blog.sitename?
+    * CodeBuild - BuildSpec.yml instead of just gem instally jekyll include a Gemfile and Gemfile.lock
+        * Keep builds through codebuild standard, Dev branch can do "bundle update" then test before prod 
