@@ -3,10 +3,10 @@ version: 0.1
 phases:
   install:
     commands:
-      - gem install jekyll bundler #jekyll-paginate jekyll-sitemap jekyll-gist
+      - bundle install #gem install jekyll bundler #jekyll-paginate jekyll-sitemap jekyll-gist
   build:
     commands:
       - echo "******** Building Jekyll site ********"
-      - jekyll build
+      - bundle exec jekyll build
       - echo "******** Uploading to S3 ********"
       - aws s3 sync --acl public-read --delete _site/ s3://static-blog-0346
