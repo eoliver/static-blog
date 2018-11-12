@@ -8,6 +8,7 @@ part: "Part I"
 # Part 1 of the Serverless Blog
 
 **Resources** used to setup solution:
+
 https://medium.freecodecamp.org/how-to-continuously-deploy-a-static-website-in-style-using-github-and-aws-3df7ecb58d9c
 https://stormpath.com/blog/ultimate-guide-deploying-static-site-aws
 https://alexbilbie.com/2016/12/codebuild-codepipeline-update-jekyll-website/
