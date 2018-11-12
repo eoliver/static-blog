@@ -7,6 +7,8 @@ cat <<EOT >> $post_name
 ---
 layout: post
 author: serverless
+series:
+part:
 ---
 EOT
 

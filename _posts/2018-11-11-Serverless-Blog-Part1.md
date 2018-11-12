@@ -2,6 +2,7 @@
 author: serverless
 title: "Serverless Blog Part 1"
 series: serverless-blog
+part: "Part I"
 ---
 
 # Part 1 of the Serverless Blog

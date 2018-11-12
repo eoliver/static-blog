@@ -14,7 +14,7 @@ layout: default
 
 {% assign filtered_posts = site.posts | where: 'series', page.series %}
 {% for post in filtered_posts %}
-
-<a href="{{ post.url }}">{{ post.title }}</a>
-
+{% if series %}
+<a href="{{ post.url }}" {% if page.url == post.url %}class="part" {% else %} class="notpart" {% endif %}>{{ post.part }}</a>
+{% endif %}
 {% endfor %}
