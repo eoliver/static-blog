@@ -12,7 +12,8 @@ layout: default
 
 {{ content }}
 
-{% for psot in site.posts %}
+{% assign filtered_posts = site.posts | where: 'series', page.series %}
+{% for post in filtered_posts %}
 
 <a href="{{ post.url }}">{{ post.title }}</a>
 

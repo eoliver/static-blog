@@ -1,6 +1,7 @@
 ---
 layout: post
 author: serverless
+series: intro
 ---
 This is the first post of the serverless blog
 
