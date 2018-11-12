@@ -11,3 +11,9 @@ layout: default
 </p>
 
 {{ content }}
+
+{% for psot in site.posts %}
+
+<a href="{{ post.url }}">{{ post.title }}</a>
+
+{% endfor %}
