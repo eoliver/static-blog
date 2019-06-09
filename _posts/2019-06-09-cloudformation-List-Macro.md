@@ -1,8 +1,7 @@
 ---
 layout: post
 author: serverless
-series:
-part:
+series: CFMacro
 ---
 
 # Creating a Cloudformation Macro for Advanced List Functions
