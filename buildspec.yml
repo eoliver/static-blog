@@ -10,4 +10,4 @@ phases:
       - echo "******** Building Jekyll site ********"
       - bundle exec jekyll build
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync --acl public-read --delete _site/ s3://static-blog-0346
+      - aws s3 sync --acl public-read --delete _site/ s3://dev-static-blog-0346
