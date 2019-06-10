@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - gem install bundler
-      - gem install rouge
+      - gem install rouge kramdown
       - bundle install --full-index #gem install jekyll bundler #jekyll-paginate jekyll-sitemap jekyll-gist
   build:
     commands:
