@@ -1,2 +1,4 @@
-#ensure jeykyll built site does not deploy
-_site/
+_site*
+.sass-cache
+.jekyll-metadata
+*backup/

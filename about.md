@@ -1,7 +1,9 @@
 ---
+layout: page
 title: About
+permalink: /about/
 ---
-# About page
 
+Some stuff about me.
 
-This page tells you a little bit about me.
+email: eric.oliver[at]techminus.net
