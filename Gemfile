@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gme 'alembic-jekyll-theme'
+gem 'alembic-jekyll-theme'
 gem 'jekyll'
 
 group :jekyll_plugins do
