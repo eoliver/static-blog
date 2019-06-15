@@ -1,8 +1,8 @@
 ---
-author: serverless
+layout: post
 title: "Serverless Blog Part 1"
-series: serverless-blog
-part: "Part I"
+date: 2013-12-23 00:18:23 +0700
+categories: [AWS]
 ---
 
 # Part 1 of the Serverless Blog
