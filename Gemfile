@@ -8,5 +8,5 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'jekyll-gist'
-  gme 'jekyll-paginate'
+  gem 'jekyll-paginate'
 end
