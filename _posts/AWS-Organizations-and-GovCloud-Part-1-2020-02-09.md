@@ -1,8 +1,8 @@
 ---
 layout: post
-author: serverless
-series: AWS Organizations and GovCloud
-part: 1
+title: "AWS Organizations and GovCloud"
+date: 2020-02-09 00:18:23 +0700
+categories: [GovCloud]
 ---
 
 ## Purpose:
