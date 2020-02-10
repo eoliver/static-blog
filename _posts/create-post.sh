@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DATE=`date +%Y-%m-%d-`
-post_name=$1$DATE.md
+DATE=`date +%Y-%m-%d`
+post_name=$1-$DATE.md
 
 cat <<EOT >> $post_name
 ---
