@@ -48,9 +48,23 @@ $0
     * Create Commercial IAM Administrator User Access Keys.
     * Create GovCloud IAM Administrator User Access Keys.
     * Install or upgrade to latest AWS CLI
+    * Create Access Keys for Commercial Account Administrator
+        * Create an AWS CLI Profile *awsorgmaster* for Commercial account with Access Keys
+    * Create Access Keys for GovCloud Account Administrator
+        * Create an AWS CLI Profile *govcloud* for GovCloud account with Access Keys 
 
 ```tcl
 aws organizations create-gov-cloud-account --email your.name@domain.com --account-name awsorgmember1 --profile awsorgmaster
 
 aws organizations describe-create-account-status --create-account-request-id car-987fadf87w92l1085la3748 --profile awsorgmaster
+
+aws organizations invite-account-to-organization --target Id=123456789012,Type=ACCOUNT --profile govcloud --region us-gov-west-1
+
+aws sts assume-role --role-arn arn:aws-us-gov:iam::123456789012:role/OrganizationAccountAccessRole --role-session-name govcloudorgmember --profile govcloud --region us-gov-west-1
+
+aws configure --profile govcloudmember
+
+aws organizations list-handshakes-for-account --profile govcloudmember --region us-gov-west-1
+
+aws organizations accept-handshake --handshake-id h-adfasd987f23lkjf982ij987234 --profile govcloudmember --region us-gov-west-1
 ```
